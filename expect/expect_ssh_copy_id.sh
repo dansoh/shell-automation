@@ -10,7 +10,7 @@
 #if less than 3 arguments supplied, display warning and usage
 
 if {[llength $argv] < 3} {
-        send_user "Usage: ./remote_root_script.sh <user> <password> <server> <remote script>\n"
+        send_user "Usage: ./remote_root_script.sh <user> <password> <server>"
         exit 1
 }
 
